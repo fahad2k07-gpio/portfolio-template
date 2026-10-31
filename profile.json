@@ -1,4 +1,3 @@
-
 {
     "name": "FAHAD S RAHUMAN",
     "tagline": "ECE Student | Digital Electronics | Embedded Systems",
@@ -16,19 +15,17 @@
     "projects": [
         {
             "title": "4-Bit Adder/Subtractor",
-            "desc": "Implemented a 4-bit adder/subtractor in Verilog HDL using full-adder modules and XOR-based mode selection."
+            "desc": "Implemented a 4-bit adder/subtractor in Verilog HDL using full-adder modules and XOR-based mode selection.",
             "link": ""
         },
         {
             "title": "ESP8266 OLED Display",
-           "desc": "Used an ESP8266 and OLED display with Arduino IDE to create a visual representation of a football penalty scenario."
+            "desc": "Used an ESP8266 and OLED display with Arduino IDE to create a visual representation of a football penalty scenario.",
             "link": ""
         }
     ],
     "links": {
-      
-    "github": "https://github.com/fahad2k07-gpio",
-    "linkedin": "https://www.linkedin.com/in/fahad-s-rahuman-96612b36b"
-
+        "github": "https://github.com/fahad2k07-gpio",
+        "linkedin": "https://www.linkedin.com/in/fahad-s-rahuman-96612b36b"
     }
 }
