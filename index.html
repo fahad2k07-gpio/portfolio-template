@@ -1,35 +1,110 @@
-<!doctype html>
-<html lang="en">
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fahad S. Rahuman | Portfolio</title>
+    <meta name="description" content="Electronics and Communication Engineering student exploring digital electronics, embedded systems and software.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="hero">
-    <h1 id="name"></h1>
-    <p id="tagline"></p>
-    <nav id="links"></nav>
-  </header>
-  <main>
-    <section>
-      <h2>About</h2>
-      <p id="bio"></p>
-    </section>
-    <section>
-      <h2>Skills</h2>
-      <ul id="skills" class="chips"></ul>
-    </section>
-    <section>
-      <h2>Projects</h2>
-      <div id="projects" class="grid"></div>
-    </section>
-  </main>
-  <footer id="footer"></footer>
-  <script src="script.js"></script>
-</body>
 
+    <div class="background-grid"></div>
+
+    <header class="navbar">
+        <a href="#" class="logo">FSR<span>.</span></a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="nav-contact">Connect ↗</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow"><span class="status-dot"></span> ELECTRONICS & TECHNOLOGY</p>
+
+                <h1>Hi, I'm <span id="name">Fahad</span>.</h1>
+
+                <h2 id="tagline">Exploring technology, one circuit at a time.</h2>
+
+                <p class="hero-description" id="bio"></p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">Explore Projects ↗</a>
+                    <a href="#contact" class="button secondary">Get in touch</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <span class="visual-label">CURRENT INTERESTS</span>
+                    <div class="circuit-symbol">01<span>.</span></div>
+                    <div class="visual-line"></div>
+                    <p>Digital Logic</p>
+                    <p>Embedded Systems</p>
+                    <p>Hardware & Code</p>
+                    <span class="visual-footer">BUILD · LEARN · REPEAT</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <span>01 / INTRODUCTION</span>
+                <h2>About <span>me.</span></h2>
+            </div>
+
+            <div class="about-card">
+                <p id="about-text"></p>
+                <div class="about-tag">ECE STUDENT · TECH ENTHUSIAST</div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <span>02 / TOOLKIT</span>
+                <h2>Things I <span>work with.</span></h2>
+            </div>
+
+            <div id="skills-list" class="skills-grid"></div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <span>03 / SELECTED WORK</span>
+                <h2>My <span>projects.</span></h2>
+            </div>
+
+            <div id="projects-list" class="projects-grid"></div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <span>04 / LET'S CONNECT</span>
+            <h2>Have something<br>interesting in mind?</h2>
+            <p>Feel free to explore my work and connect with me.</p>
+            <div id="contact-links" class="contact-links"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Designed & built by <span id="footer-name">Fahad</span></p>
+        <p>© 2026 · Made with curiosity.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
 </html>

@@ -1,19 +1,34 @@
+
 {
-    "name": "Your Name",
-    "tagline": "Your one-line introduction",
-    "bio": "Write 2 or 3 sentences about yourself.",
+    "name": "FAHAD S RAHUMAN",
+    "tagline": "ECE Student | Digital Electronics | Embedded Systems",
+    "bio": "I am a second-year Electronics and Communication Engineering student interested in digital system design, embedded electronics, and programming. I enjoy exploring hardware concepts and implementing them through practical projects. I am continuously learning and developing my technical skills.",
     "skills": [
-        "Git",
-        "HTML"
+        "Verilog HDL",
+        "Digital Electronics",
+        "Digital Logic Design",
+        "Arduino IDE",
+        "ESP8266",
+        "Embedded Systems",
+        "C Programming",
+        "Git"
     ],
     "projects": [
         {
-            "title": "My first project",
-            "desc": "What it does.",
-            "link": "https://github.com/yourname"
+            "title": "4-Bit Adder/Subtractor",
+            "desc": "A digital logic design project implementing a 4-bit adder and subtractor using Verilog HDL and full adder modules.",
+            "link": ""
+        },
+        {
+            "title": "ESP8266 OLED Display",
+            "desc": "An embedded systems experiment using an ESP8266 and OLED display to visualize a football penalty scenario.",
+            "link": ""
         }
     ],
     "links": {
-        "github": "https://github.com/yourname"
+      
+    "github": "https://github.com/fahad2k07-gpio",
+    "linkedin": "https://www.linkedin.com/in/fahad-s-rahuman-96612b36b"
+
     }
 }
