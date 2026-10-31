@@ -16,12 +16,12 @@
     "projects": [
         {
             "title": "4-Bit Adder/Subtractor",
-            "desc": "A digital logic design project implementing a 4-bit adder and subtractor using Verilog HDL and full adder modules.",
+            "desc": "Implemented a 4-bit adder/subtractor in Verilog HDL using full-adder modules and XOR-based mode selection."
             "link": ""
         },
         {
             "title": "ESP8266 OLED Display",
-            "desc": "An embedded systems experiment using an ESP8266 and OLED display to visualize a football penalty scenario.",
+           "desc": "Used an ESP8266 and OLED display with Arduino IDE to create a visual representation of a football penalty scenario."
             "link": ""
         }
     ],
